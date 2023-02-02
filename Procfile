@@ -1,1 +1,1 @@
-web: gunicorn 'name-of-application.wsgi'
+web: gunicorn D_D_Software.wsgi
