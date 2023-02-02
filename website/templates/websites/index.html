@@ -1,0 +1,461 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Syax Corp</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="{% static 'website/images/syax.jpg' %}" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="{% static 'website/Contents/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'website/Contents/vendor/aos/aos.css' %}" rel="stylesheet">
+    <link href="{% static 'website/Contents/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'website/Contents/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'website/Contents/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'website/Contents/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+    <link href="{% static 'website/Contents/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="{% static  'website/Contents/css/style.css' %}" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: Techie - v4.10.0
+    * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+        <h1 class="logo"><a href="index.html"><img src="{% static 'website/images/Syax-JPEG-Logo-2.jpg.png' %}"></a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+
+                <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Deep Drop Down 1</a></li>
+                                <li><a href="#">Deep Drop Down 2</a></li>
+                                <li><a href="#">Deep Drop Down 3</a></li>
+                                <li><a href="#">Deep Drop Down 4</a></li>
+                                <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+        <div class="header-social-links d-flex">
+            <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></a>
+        </div>
+
+    </div>
+</header><!-- End Header -->
+
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active"
+                 style="background-image: linear-gradient(to right, rgba(1,1,1, 0.2) 0 100%), url('{% static 'website/images/we-scaled.jpg' %}') ;">
+                <div class="containers position-relative" data-aos="fade-up" data-aos-delay="100">
+                    <h1 style="color: #ffffff; opacity: 1;"><b>Welcome to Syax Corp</b></h1>
+                    <p style="color: #ffffff;  opacity: 1; ">Feel free to look around</p>
+                    <a href="courses.html" class="btn-get-started">Get a Quotation</a>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item"
+                 style="background-image:  linear-gradient(to right, rgba(1,1,1, 0.2) 0 100%), url('{% static 'website/images/DSCN4541-1-scaled.jpg' %}');">
+                <div class="containers">
+                    <div class=" animate__animated animate__fadeInUp">
+                        <h1 style="color: #ffffff;"><b>DIGITAL PRINTING</b></h1>
+                    <p style="color: #ffffff;">Feel free to look around</p>
+                    <a href="courses.html" class="btn-get-started">Get a Quotation</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item"
+                 style="background-image:  linear-gradient(to right, rgba(1,1,1, 0.2) 0 100%), url('{% static 'website/images/slide/slide-1.jpg' %}');">
+                           <div class="containers">
+                    <div class=" animate__animated animate__fadeInUp">
+                         <h1 style="color: #ffffff;">Learning Today,<br>Leading Tomorrow</h1>
+                    <h2 style="color: #ffffff;">We are team of talented designers making websites with Bootstrap</h2>
+                    <a href="courses.html" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+                          </div>
+            </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+
+</section><!-- End Hero -->
+<!-- ======= Clients Section ======= -->
+<main id="main">
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Our Products and Services</h2>
+                <p style="font-size: 20px; color: darkorange">Your Perfect Printing & Branding Partner!</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box">
+                        <img src='{% static 'website/images/features.jpg' %}' height="50%" width="100%">
+                        <h4><a href="">DIGITAL PRINTING</a></h4>
+                        <p>Designs can now be personalised and produced in very low quantities in glorious colour.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bxs-bolt"></i></div>
+                        <h4><a href="">FABRICATION</a></h4>
+                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="icon-box">
+                        <div class="icon"><i class="bx bx-"></i></div>
+                        <h4><a href="">Divera don</a></h4>
+                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Services Section -->
+    <section id="constructions" class="constructions">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+                <h2>Project Recent</h2
+                <p style="font-size: 20px; color: darkorange"></p>
+            </div>
+            </div>
+
+            <div class="row gy-4">
+
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="card-item">
+                        <div class="row">
+                            <div class="col-xl-7">
+                                <div class="card-bg"
+                                     style=" background-image: url('{% static 'website/images/team/Service3.jpg' %}');"></div>
+                            </div>
+                            <div class="col-xl-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
+                                    <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem
+                                        placeat deleniti adipisci.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Card Item -->
+
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="card-item">
+                        <div class="row">
+                            <div class="col-xl-7">
+                                <div class="card-bg"
+                                     style="background-image: url('{% static 'website/images/team/Service5.jpg' %}');"></div>
+                            </div>
+                            <div class="col-xl-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h4 class="card-title">Possimus ut sed velit assumenda</h4>
+                                    <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis.
+                                        Est laboriosam qui iste numquam laboriosam voluptatem architecto.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Card Item -->
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-item">
+                        <div class="row">
+                            <div class="col-xl-7">
+                                <div class="card-bg"
+                                     style="background-image: url('{% static 'website/images/team/CARD1-480x384.jpg' %}');"></div>
+                            </div>
+                            <div class="col-xl-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h4 class="card-title">Error beatae dolor inventore aut</h4>
+                                    <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis
+                                        numquam quae quaerat ipsam omnis..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Card Item -->
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-item">
+                        <div class="row">
+                            <div class="col-xl-7">
+                                <div class="card-bg"
+                                     style="background-image: url('{% static 'website/images/team/Z5.jpeg' %}');"></div>
+                            </div>
+                            <div class="col-xl-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
+                                    <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos
+                                        doloremque architecto illo at beatae dolore.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Card Item -->
+
+
+            </div>
+
+        </div>
+    </section><!-- End Constructions Section -->
+
+    <!-- ======= About Us Section ======= -->
+
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+
+            <div class="text-center">
+                <h3>Ready to get started on your next printing project?</h3>
+                <p></p>
+                <a class="cta-btn" href="#">Contact us Now <b>!</b></a>
+            </div>
+
+        </div>
+    </section><!-- End Cta Section -->
+    <!-- ======= Our Clients Section ======= -->
+    <section id="clients" class="clients">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Clients</h2>
+            </div>
+
+            <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="client-logo">
+                        <img src=" {% static 'website/images/clients/download (6).png' %}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="client-logo">
+                        <img src="{% static 'website/images/clients/finallogo-2-1.png' %}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="client-logo">
+                        <img src="{% static 'website/images/clients/unnamed.png' %}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="client-logo">
+                        <img src="{% static 'website/images/clients/huawei-logo-png-hd-0.png' %}" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="client-logo">
+                        <img src="{% static 'website/images/clients/download (3).png' %}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="client-logo">
+                        <img src="{% static 'website/images/clients/download (4).png' %}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="client-logo">
+                        <img src="{% static 'website/images/clients/Garden City.png' %}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="client-logo">
+                        <img src="{% static 'website/images/clients/pxr4mpbv.jpg' %}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Our Clients Section -->
+
+</main>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h1 class="logo-v2"><a href="index.html"><img
+                            src="{% static 'website/images/Syax-JPEG-Logo-2.jpg.png' %}" height="40px"></a></h1>
+                    <p>
+                        A108 Adam Street <br>
+                        New York, NY 535022<br>
+                        United States <br><br>
+                        <strong>Phone:</strong> +1 5589 55488 55<br>
+                        <strong>Email:</strong> info@example.com<br>
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-newsletter">
+                    <h4>Join Our Newsletter</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <form action="" method="post">
+                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+        <div class="me-md-auto text-center text-md-start">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Company</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
+                Designed by <a href="https://bootstrapmade.com/">SyTech</a>
+            </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+    </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="{% static 'website/Contents/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+<script src="{% static 'website/Contents/vendor/aos/aos.js' %}"></script>
+<script src="{% static 'website/Contents/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'website/Contents/vendor/glightbox/js/glightbox.min.js' %}"></script>
+<script src="{% static 'website/static/Contents/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'website/Contents/vendor/swiper/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'website/Contents/vendor/php-email-form/validate.js' %}"></script>
+
+<!-- Template Main JS File -->
+<script src="{% static 'website/Contents/js/main.js' %}"></script>
+
+</body>
+
+</html>
