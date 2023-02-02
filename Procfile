@@ -1,1 +1,1 @@
-web: gunicorn D_D_Software.wsgi
+web: gunicorn D_D_Software.wsgi --log-file -
